@@ -1,0 +1,128 @@
+﻿<Window x:Class="VolumeControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VolumeControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type RadioButton}">
+            <EventSetter Event="Checked" Handler="RadioButton_Checked" />
+            <Setter Property="GroupName" Value="Volume"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="1"></RadioButton>
+                <RadioButton Content="2"></RadioButton>
+                <RadioButton Content="3"></RadioButton>
+                <RadioButton Content="4"></RadioButton>
+                <RadioButton Content="5"></RadioButton>
+                <RadioButton Content="6"></RadioButton>
+                <RadioButton Content="7"></RadioButton>
+                <RadioButton Content="8"></RadioButton>
+                <RadioButton Content="9"></RadioButton>
+                <RadioButton Content="10"></RadioButton>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="11"></RadioButton>
+                <RadioButton Content="12"></RadioButton>
+                <RadioButton Content="13"></RadioButton>
+                <RadioButton Content="14"></RadioButton>
+                <RadioButton Content="15"></RadioButton>
+                <RadioButton Content="16"></RadioButton>
+                <RadioButton Content="17"></RadioButton>
+                <RadioButton Content="18"></RadioButton>
+                <RadioButton Content="19"></RadioButton>
+                <RadioButton Content="20"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="21"></RadioButton>
+                <RadioButton Content="22"></RadioButton>
+                <RadioButton Content="23"></RadioButton>
+                <RadioButton Content="24"></RadioButton>
+                <RadioButton Content="25"></RadioButton>
+                <RadioButton Content="26"></RadioButton>
+                <RadioButton Content="27"></RadioButton>
+                <RadioButton Content="28"></RadioButton>
+                <RadioButton Content="29"></RadioButton>
+                <RadioButton Content="30"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="41"></RadioButton>
+                <RadioButton Content="42"></RadioButton>
+                <RadioButton Content="43"></RadioButton>
+                <RadioButton Content="44"></RadioButton>
+                <RadioButton Content="45"></RadioButton>
+                <RadioButton Content="46"></RadioButton>
+                <RadioButton Content="47"></RadioButton>
+                <RadioButton Content="48"></RadioButton>
+                <RadioButton Content="49"></RadioButton>
+                <RadioButton Content="50"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="51"></RadioButton>
+                <RadioButton Content="52"></RadioButton>
+                <RadioButton Content="53"></RadioButton>
+                <RadioButton Content="54"></RadioButton>
+                <RadioButton Content="55"></RadioButton>
+                <RadioButton Content="56"></RadioButton>
+                <RadioButton Content="57"></RadioButton>
+                <RadioButton Content="58"></RadioButton>
+                <RadioButton Content="59"></RadioButton>
+                <RadioButton Content="60"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="71"></RadioButton>
+                <RadioButton Content="72"></RadioButton>
+                <RadioButton Content="73"></RadioButton>
+                <RadioButton Content="74"></RadioButton>
+                <RadioButton Content="75"></RadioButton>
+                <RadioButton Content="76"></RadioButton>
+                <RadioButton Content="77"></RadioButton>
+                <RadioButton Content="78"></RadioButton>
+                <RadioButton Content="79"></RadioButton>
+                <RadioButton Content="80"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="81"></RadioButton>
+                <RadioButton Content="82"></RadioButton>
+                <RadioButton Content="83"></RadioButton>
+                <RadioButton Content="84"></RadioButton>
+                <RadioButton Content="85"></RadioButton>
+                <RadioButton Content="86"></RadioButton>
+                <RadioButton Content="87"></RadioButton>
+                <RadioButton Content="88"></RadioButton>
+                <RadioButton Content="89"></RadioButton>
+                <RadioButton Content="90"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="91"></RadioButton>
+                <RadioButton Content="92"></RadioButton>
+                <RadioButton Content="93"></RadioButton>
+                <RadioButton Content="94"></RadioButton>
+                <RadioButton Content="95"></RadioButton>
+                <RadioButton Content="96"></RadioButton>
+                <RadioButton Content="97"></RadioButton>
+                <RadioButton Content="98"></RadioButton>
+                <RadioButton Content="99"></RadioButton>
+                <RadioButton Content="100"></RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Content="Mute"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
